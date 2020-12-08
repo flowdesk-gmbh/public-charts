@@ -1,0 +1,30 @@
+# Copyright 2020 The Tekton Authors
+#
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+#
+#     https://www.apache.org/licenses/LICENSE-2.0
+#
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and
+# limitations under the License.
+
+name: cert-manager-dns-solver
+icon: https://www.seekpng.com/png/full/197-1973941_rt66-sign-route-66-state-signs.png
+apiVersion: v2
+version: 0.0.1
+appVersion: "0.0.1"
+home: https://github.com/jetstack/cert-manager
+keywords:
+  - helm
+  - cert manager
+  - route 53
+maintainers:
+  - name: Jan Max Tiedemann
+    email: jax@flowdesk.de
+description: |
+  this chart creates a dns solver for a lot of dns zones
+  basicaly a shim for terraform

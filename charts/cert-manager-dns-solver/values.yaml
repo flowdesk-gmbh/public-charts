@@ -1,0 +1,19 @@
+nameOverride: ""
+
+fullnameOverride: ""
+
+acme:
+  email: example@test.com
+  privateKeySecretRef:
+    name: some_name
+  server: https://acme-v02.api.letsencrypt.org/director
+
+route53:
+  region: "us-east-1" # if its up kekw  
+  zones:
+    - name: yourdomain.com
+      hostedZoneID: YOUR_HOSTED_ZONE_ID
+      region: "some_other_region"
+
+annotations:
+  # heyyo.com/i-am-a-random-annotation=orly
