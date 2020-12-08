@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  cert-manager-dns-solver:
+  - apiVersion: v2
+    appVersion: 0.0.1
+    created: "2020-12-08T15:42:26.952689877Z"
+    description: |
+      this chart creates a dns solver for a lot of dns zones
+      basicaly a shim for terraform
+    digest: f0083814f67de5128c6c27997c050aac3c70601d5d6d1bf7b07767c11f1910ad
+    home: https://github.com/jetstack/cert-manager
+    icon: https://www.seekpng.com/png/full/197-1973941_rt66-sign-route-66-state-signs.png
+    keywords:
+    - helm
+    - cert manager
+    - route 53
+    maintainers:
+    - email: jax@flowdesk.de
+      name: Jan Max Tiedemann
+    name: cert-manager-dns-solver
+    urls:
+    - https://github.com/flowdesk-gmbh/public-charts/releases/download/cert-manager-dns-solver-0.0.2/cert-manager-dns-solver-0.0.2.tgz
+    version: 0.0.2
+generated: "2020-12-08T15:42:26.729792266Z"
