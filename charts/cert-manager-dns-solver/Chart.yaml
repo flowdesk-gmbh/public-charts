@@ -15,7 +15,7 @@
 name: cert-manager-dns-solver
 icon: https://www.seekpng.com/png/full/197-1973941_rt66-sign-route-66-state-signs.png
 apiVersion: v2
-version: 0.0.1
+version: 0.0.2
 appVersion: "0.0.1"
 home: https://github.com/jetstack/cert-manager
 keywords:
